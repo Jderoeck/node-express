@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = (app) => {
     
     app.get('/', (req, res) => {
-    res.send('Hello world');
+    res.render('antwoord');
 });
     //zoekt routes
     glob.sync("./routes/!(index).js", {

@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Is CSS Grid beter dan floats?</title>
+</head>
+
+<body>
+    <header>
+        <div class="contain">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo">
+            </div>
+            <div class="account">
+                <p>Anneke Kodeur</p>
+                <a href="#">Log Out</a>
+                <img src="images/user6.png" alt="profile pic">
+            </div>
+        </div>
+    </header>
+    <section id="top">
+
+        <h1>"Is CSS Grid beter dan floats?"</h1>
+
+        <div id="details">
+            <div id="like">
+                <img src="images/icon-cool.svg" alt="cool">
+                <p>x1</p>
+                <a href="#">like deze vraag</a>
+            </div>
+            <div id="likes">
+                <img src="images/user1.png" alt="profile picture">
+            </div>
+            <div id="owner">
+                <p id="gevraagd">2 minuten geleden gevraagd door</p>
+                <p id="ownerName">Joris Hens</p>
+                <img src="images/user1.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+    <section id="bottom">
+    <div id="comments">
+        <div class="comment">
+            <p class="commentText">CSS Grid is in ieder geval meer flexibel en makkelijker te implementeren dan floats!</p>
+            <img src="images/user1.png" alt="profile picture">
+            <p class="commentOwner">Joris Hens</p>
+        </div>
+        <div class="response">
+            <p class="responseText">Enkel opletten voor browser compatibility!</p>
+            <img src="images/user1.png" alt="profile picture">
+            <p class="responseOwner">Joris Hens</p>
+        </div>
+        <form action="#">
+            <input class="reageer" type="text" placeholder="Plaats Commentaar...">
+        </form>
+    </div>
+    <div id="reactie">
+        <form action="#">
+            <img src="images/user1.png" alt="profile picture">
+            <input id="reageerText" type="text" placeholder="Reageer op deze vraag">
+            <input id="reageerSend" type="submit" value="REAGEREN">
+        </form>
+    </div>
+    </section>
+</body>
+</html>

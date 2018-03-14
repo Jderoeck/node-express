@@ -13,3 +13,8 @@ app.listen(config.port, () => {
 
 // Init routes
 require("./routes/")(app);
+
+//set view engine to ejs
+app.set('view engine', 'ejs');
+
+app.use(express.static("public"));
