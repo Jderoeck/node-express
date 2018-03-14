@@ -17,4 +17,5 @@ require("./routes/")(app);
 //set view engine to ejs
 app.set('view engine', 'ejs');
 
+//tijdelijke link naar css en images
 app.use(express.static("public"));
